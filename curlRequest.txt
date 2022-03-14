@@ -1,0 +1,15 @@
+
+curl --location --request POST 'http://localhost:8080/customer?name=shivaya' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'name=Minto'
+
+
+
+
+curl --location --request POST 'http://localhost:8080/customapi/create_customer_detail' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'name=Aman Bhai' \
+--data-urlencode 'phone=213131313131' \
+--data-urlencode 'address=HCL Technologies Ltd. Technology Hub, SEZ Plot No. 3A, Sector 126. Noida – 201304, India'
+
+
